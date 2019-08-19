@@ -12,5 +12,5 @@ ENTRYPOINT ["java", "-jar", "docker-demo.jar"]
 # will run the command as the entry point as this is a JAR and we need to run this JAR from within Docker.
 
 ##### in terminal run the following command ######
-# docker build -f Dockerfile -t bijay/docker-demo .
-# docker run -p 8080:8080 bijay/docker-demo
+# docker build -f Dockerfile -t docker-demo .
+# docker run -p 8080:8080 docker-demo
